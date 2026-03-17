@@ -21,3 +21,26 @@ The result of this command would be that we get two files `train.jsonl` and `dev
 - The datasets are available on Fox at: /fp/projects01/ec403/IN5550/obligatories/2
 - It might also be a good idea to use a smaller language model for debugging (such as mmBERT-small, available at /fp/projects01/ec403/hf_models/mmBERT-small). For the same reason, try to limit for how long you train the models, there is no benefit in running them on more than 10 epochs – much less usually works even better with good hyperparameters.
 - The language models are already downloaded on Fox, please save your user space and load them from /fp/projects01/ec403/hf_models/.
+
+## Testings
+
+LM comparisons:
+- [ ] BERT
+- [ ] mmBERT
+
+Different loss functions:
+- [ ] MSE
+- [ ] CEL
+- [ ] EMD_median
+- [ ] EMD_full
+
+Different pooling functions (with best loss function):
+- [ ] BOS pooling
+- [ ] target word pooling
+
+Different languages
+- [ ] English
+- [ ] Chinese
+- [ ] Spanish
+- [ ] German
+- [ ] Custom datacat dataset
