@@ -1,0 +1,2 @@
+{"sentence_a" : "Hey Ludvig", "sentence_b" : "Ludvig loves cucumber", "word": "Ludvig", "word_indices_a" : [4, 10], "word_indices_b" : [0, 6], "labels" : [4, 3, 4], "median_label" : [4]}
+{"sentence_a" : "I love fish", "sentence_b" : "fish loves me", "word": "fish","word_indices_a" : [7, 11], "word_indices_b" : [0, 4], "labels" : [3, 2, 3, 3], "median_label" : [3]}
