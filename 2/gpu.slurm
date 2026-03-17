@@ -3,7 +3,7 @@
 #SBATCH --account=ec403
 #SBATCH --time=00:30:00      # NOTE: make sure to adjust requested time to actual needs
 #SBATCH --partition=accel    # To use the accelerator nodes, i.e., with access to gpus
-#SBATCH --gpus=a100:1
+#SBATCH --gpus=1
 #SBATCH --nodes=1
 #SBATCH --mem-per-cpu=4G
 #SBATCH --cpus-per-task=4
